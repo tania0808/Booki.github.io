@@ -1,0 +1,73 @@
+@media (max-width: 992px) {
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .bold-text {
+        width: 100%;
+        float: left;
+    }
+
+    .accomodations {
+        flex-direction: column-reverse;
+    }
+
+    #marseille {
+        width: 100%;
+    }
+
+    .card-image img {
+        height: 150px;
+    }
+
+    .card-infos {
+        height: 85px;
+        padding: 5px 8px ;
+    }
+
+    #most-popular {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .cards-pop-container {
+        flex-direction: row;
+        padding: 15px 10px 30px 10px;
+    }
+
+    .card-pop-body {
+        max-width: 315px;
+        height: 140px;
+        padding: 4px 0px 4px 4px;
+    }
+
+    .card-pop-image {
+        height: 100%;
+        width: 40%;
+    }
+
+    .card-pop-infos {
+        max-width: 315px;
+    }
+
+    .activities-container {
+        max-height: 450px;
+        justify-content: space-between;
+    }
+
+    .activity-info {
+        height: 52px;
+    }
+
+    footer {
+        justify-content: space-between;
+        padding-left: 22px;
+    }
+
+    .col-33 {
+        width: fit-content;
+    }
+}
